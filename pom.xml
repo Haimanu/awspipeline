@@ -17,12 +17,12 @@
   </dependencies>
   <build>
     <extensions>
-    <extension>
-      <groupId>com.github.platform-team</groupId>
-      <artifactId>aws-maven</artifactId>
-      <version>6.0.0</version>
-    </extension>
-  </extensions>
+        <extension>
+            <groupId>com.gkatzioura.maven.cloud</groupId>
+            <artifactId>s3-storage-wagon</artifactId>
+            <version>1.0</version>
+        </extension>
+    </extensions>
   </build>
   
    <distributionManagement>
